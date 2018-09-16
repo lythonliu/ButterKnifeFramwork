@@ -1,0 +1,13 @@
+package com.example.administrator.butterdepends;
+
+import android.widget.TextView;
+import com.example.injectview.ViewBinder;
+import java.lang.Override;
+
+public class MainActivity$$ViewBinder<T extends MainActivity> implements ViewBinder<MainActivity> {
+  @Override
+  public void bind(final MainActivity target) {
+    target.title=(TextView)target.findViewById(2131427373);
+    target.content=(TextView)target.findViewById(2131427415);
+  }
+}
